@@ -1,3 +1,6 @@
+/* create by http://freehtml5templates.com*/
+
+/*reset*/
 *{
 	margin: 30;
 	padding: 30;
@@ -10,8 +13,9 @@ header,footer,section,aside,nav,article{
 
 body {
 	background: black;
+	margin: 10px;
 	line-height: 10px;
-	border: black 25px groove;
+	border: ridge 20px gray;
 	background: #e0e0e0 url(images/bg.jpg)repeat;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	color: #666
@@ -22,16 +26,16 @@ body {
 img {
   float: left;
   width: 400px;
-  border: white 5px solid;
+  border: black 5px solid;
 }
 
 /*layout*/
 
 #erapper{
-	width: 1185px
+	width: 940px
 	margin: 0 auto;
-	margin-top: 1px;
-	margin-bottom: 1px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	background: #fff
 }
 
@@ -39,12 +43,12 @@ nav{
 	width: 1100px;
 	height: 30px;
 	margin: 10 auto;
+	text-align: center;
 	background: gray;
 }
 
 header{
-	width: 1100px;
-	margin-left: 40px;
+	width: 1050px;
 	padding-bottom: 40px;
 	margin: 10 auto;
 	background: #fff;
@@ -53,13 +57,12 @@ header{
 
 #main{
 	width: 1185px;
-	margin-left: 40px;
-	padding-bottom: 40px;
+	margin: 10 auto
 	background: #FFF;
 }
 
 footer{
-	width: 940px;
+	width: 1185px;
 	margin: 0 auto;
 	clear: both;
 }
@@ -72,16 +75,16 @@ footer{
 	src: local('MedioRegular'), url('Medio-Webfont.woff') format('woff'), 
 	url('Medio-Webfont.ttf') format('truetype'), url('Medio-Webfont.svg#webfontdClsLX7n')
 	format('svg');
-	font-weight: bold;
-	font-style: initial;
+	font-weight: normal;
+	font-style: normal;
 }
 
 h2,h3,h4,h5,h6{
 	display: block;
-	text-indent: 10px;
+	text-indent: 2px;
 	font-variant: small-caps;
-	line-height: 1.5em;
-	padding: 10px 0;
+	line-height: 2px;
+	padding: 0px;
 	font-weight: bold;
 	color: #000
 }
@@ -92,8 +95,24 @@ h2,h3,h4,h5,h6{
 }
 
 #gg{
-	margin-bottom: 5px;
+	margin-bottom: 1px;
+	width: 1010px;
+	margin: 10 auto;
 	text-align: left; 	
+}
+
+#www{
+	margin: 10 auto;
+	border: white 2px solid;
+	text-align: left;
+}
+
+#mmm{
+	width: 400px;
+}
+#table{
+	margin: 10 auto;
+	width: 1150px;
 }
 
 a:link,a:visited{
@@ -107,7 +126,7 @@ a:hover, a:active{
 
 p{
 	margin-bottom: 18px;
-	text-align: right; 
+	text-align: left; 
 }
 
 li{
@@ -117,11 +136,10 @@ li{
 /*site title*/
 
 h1{
-	font-weight: normal;
-	font-family: 'MedioRegular',Verdana,Arial,Helvetica,sans-serif
-	font-size: 30px;
-	padding: 2px 2px 2px;
-	width: 1185px;
+	font-weight: bold;
+	font-family: 'MedioRegular',Verdana,Arial,Helvetica,sans-serif;
+	font-size: 40px;
+	padding: 10px 10px 10px;
 }
 
 h1 a:link, a:visited{
@@ -192,14 +210,13 @@ header .headline h2{
 
 article{
 	margin-bottom: 10px;
-	border: white 20px solid;
+	border: white 10px solid;
 }
 
 article img{
 	width: 300px;
-	border: white 3px solid;
+	border: black 3px groove;
 }
-
 .alignleft, img.alignleft{
 	display: inline;
 	float: left;
@@ -209,7 +226,7 @@ article img{
 .alignright, img.alignright{
 	display: inline;
 	float: right;
-	margin-left: 10px;
+	margin-left: 5px;
 }
 
 .aligncenter, img.aligncenter{
@@ -220,10 +237,9 @@ article img{
 }
 
 .triplecols{
-	width: 1185px;
-	margin-left: 0px;
-	margin-top: 40px;
-	border-bottom: 1px solid #ddd;
+	width: 1280px;
+	margin: 10 auto;
+	border: white 2px solid;
 }
 
 /*triple blocks of images and captions*/
@@ -231,8 +247,9 @@ article img{
 .tripleblocks{
 	display: inline-block;
 	vertical-align: top;
-	width: 300px;
-	text-align: center;
+	width: 400px;
+	text-align: left;
+	margin: white 5px solid;
 }
 
 .triplelesftblock{
@@ -270,7 +287,7 @@ article img{
 /*footer widget blocks*/
 
 aside h3{
-	font-size: 15px
+	font-size: 18px
 }
 
 aside ul{
@@ -291,16 +308,19 @@ aside li a:hover{
 
 #footer-area{
 	background: #b0b0b0;
-	display: inline-grid;
+	margin: 10 auto;
+	display: inline-block;
 	color: #black;
-	font-size: 100%;
-	padding: 18px 0;
+	font-size: 90%;
 	border: black 5px groove;
-	margin-top: 0px;
+}
+
+#footer{
+	margin: 10 auto;
 }
 
 .footer-segment{
-	float: left;
+	float: right;
 	width: 50px;
 	margin-left: 0px;
 }

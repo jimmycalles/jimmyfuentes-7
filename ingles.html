@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>HTML y CSS</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/estilo/style.css" media="screen">
+		<link rel="stylesheet" type="text/css" href="print.css" media="print">
+	</head>
+	<body>
+		<div id="erapper">
+			<h1><a href="#">HTML y CSS</a></h1>
+			<nav>
+				<div class="menu">
+					<ul>
+						<li><a href="ingles.html">English</a></li>
+						<li><a href="index.html">Español</a></li>
+					</ul>
+				</div>
+			</nav>
+			<header>
+				<div class="headlineimage">
+					<img src="img/html.png">
+				</div>
+				<div class="headline">
+					<h2><a href="#">what is HTML?</a></h2>
+					<p id = "jj"> HTML is the language with which the content of web pages is defined. Basically it is a set of labels that serve to define the text and other elements that will make up a web page, such as images, lists, videos, etc. HTML was originally created for informational informational purposes with text and some images. It was not thought that it would come to be used to create a multimedia leisure and consultation area (which is currently the web), so that HTML was created without responding to all the possible uses that were going to be given to it already. all groups of people who would use it in the future. </p>
+				</div>
+				<div class="headline">
+					<h2><a href="#">what is CSS?</a></h2>
+					<p id = "gg"> CSS (Cascading Style Sheets), in Spanish «Cascading Style Sheets», is a graphic design language to define and create the presentation of a structured document written in a language of markup.2 It is widely used to establish the visual design of web documents, and user interfaces written in HTML or XHTML; the language can be applied to any XML document, including XHTML, SVG, XUL, RSS, and so on. It can help you create your own website. </p>
+				</div>
+			</header>
+			<section id="main">
+				<section class="triplecols">
+					<article id="www">
+						<span class="caption"><b>1. DOCTYPES</b>
+						<p>Doctypes - short for 'document type' - help browsers understand the version of HTML in which the document is written for better interpretation. Document type declarations are not HTML tags and belong to the beginning of a document. This topic explains the structure and declaration of various doctypes in HTML.</p>
+					</article>
+				</section>
+				<section class="triplecols">
+					<article class="tripleblocks tripeleftblock">
+						<a href="#">
+							<img src="img/1.jpg" id="mmm">
+							<span class="caption"><b>1.1 Add Doctype</b>
+							</span>
+						</a>
+						<p class="byline">HTML</p>
+						<p>
+							The <! DOCTYPE> should always be included at the top of the HTML document, before the <html> tag. Version ≥ 5
+							See HTML 5 Doctype for details on HTML 5 Doctype.
+							<! DOCTYPE html>
+						</p>
+					</article>
+					<article class="tripleblocks tripeleftblock">
+						<a href="#">
+							<img src="img/2.jpg" id="mmm">
+							<span class="caption"><b>1.2 HTML5 document types</b>
+							</span>
+						</a>
+						<p class="byline">HTML</p>
+						 <p> HTML5 is not based on SGML (Generalized Standard Markup Language) and therefore does not require a reference to a DTD (Document Type Definition).
+						HTML 5 Doctype declaration:
+						<! DOCTYPE html>
+						Case insensitivity
+						According to the W3.org DOCTYPE HTML 5 specification:
+						A DOCTYPE must consist of the following components, in this order:
+						1. A string that is a case-insensitive ASCII match for the string "! DOCTYPE".
+						</p> 
+					</article>
+					<article class="tripleblocks tripeleftblock">
+						<a href="#">
+							<img src="img/3.jpg" id="mmm">
+							<span class="caption"><b>2. Headers</b>
+							</span>
+						</a>
+						<p class="byline">HTML</p>
+						<p>HTML provides not just simple paragraph tags, but six separate heading tags to indicate headings of various sizes and thicknesses. Listed as heading 1 to heading 6, heading 1 has the largest and thickest text, heading 6 is the smallest and thinnest, down to paragraph level. This topic details the proper use of these tags. </p>
+					</article>
+					<article class="tripleblocks tripeleftblock">
+						<a href="#">
+							<img src="img/4.jpg" id="mmm">
+							<span class="caption"><b>2.1 Use of titles</b>
+							</span>
+						</a>
+						<p class="byline">HTML</p>
+						<p>Headings can be used to describe the topic they precede and are defined with the < h1> to < h6> tags. Headers supports all global attributes.
+						< h1> defines the most important heading.
+						< h6> defines the least important heading.
+						Definition of a header:
+						< h1> Heading 1 < / h1> <br>
+						< h2> Heading 2 < / h2> <br>
+						< h3> Heading 3 < / h3> <br>
+						< h4> Title 4 < / h4> <br>
+						< h5> Heading 5 < / h5> <br>
+						< h6> Heading 6 < / h6> <br>
+						</p>
+					</article>
+					<article class="tripleblocks tripeleftblock">
+						<a href="#">
+							<img src="img/5.jpg" id="mmm">
+							<span class="caption"><b>2.2 correct structure matters</b>
+							</span>
+						</a>
+						<p class="byline">HTML</p>
+						<p> Search engines and other user agents often index page content based on header elements, for example to create a table of contents, so it is important to use the correct structure for headings.
+						In general, an article should have an h1 element for the main title followed by h2 subtitles, lowering a layer if necessary. If there are h1 elements at a higher level, 		they should not be used to describe any lower-level content.
+						Sample document (additional intent to illustrate the hierarchy):
+						< h1> Main title < / h1> <br>
+						< p> Introduction < / p> <br>
+						< h2> Reasons < / h2> <br>
+						< h3> Reason 1 < / h3> <br>
+						< p> Paragraph < / p> <br>
+						< h3> Reason 2 < / h3> <br>
+						< p> Paragraph < / p> <br>
+						< h2> In conclusion </ h2> <br>
+						< p> Paragraph < / p> <br></p>
+					</article>
+					<article class="tripleblocks tripeleftblock">
+						<a href="#">
+							<img src="img/6.jpg" id="mmm">
+							<span class="caption"><b>3. paragraphs</b>
+							</span>
+						</a>
+						<p class="byline">HTML</p>
+						<p>
+							<table>
+								<tr>
+									<td>tag</td>
+									<td>descrptionn</td>
+								</tr>
+								<tr>
+									<td>< p></td>
+									<td>used to put paragraphs</td>
+								</tr>
+								<tr>
+									<td>< br></td>
+									<td>serves to make a line break</td>
+								</tr>
+								<tr>
+									<td>< pre></td>
+									<td>define preformatted text </td>
+								</tr>
+							</table>
+							<p>Paragraphs are the most basic HTML element. This topic explains and demonstrates the use of the paragraph element in HTML </p>
+						</p>
+					</article>
+					<article class="tripleblocks tripeleftblock">
+						<a href="#">
+							<img src="img/7.jpg" id="mmm">
+							<span class="caption"><b>3.1 paragraphs HTML</b>
+							</span>
+						</a>
+						<p class="byline">HTML</p>
+						<p>The HTML <p> element defines a paragraph:
+							< p> This is a paragraph. </ p>
+							< p> This is another paragraph. </ p>
+							Display You cannot be sure how HTML will be displayed.
+							Large or small screens and resized windows will produce different results.
+							With HTML, you cannot change the output by adding extra spaces or lines in your 					HTML code.
+							The browser will remove the extra spaces and lines when the page is displayed:
+							  < p> This is another paragraph, browsers will remove extra spaces < / p>
+						
+						</p> 
+					</article>
+				<section class="triplecols">
+					<article id="www">
+						<h2>4. Grids</h2>
+						<p class="byline">CSS</p>
+						<p>
+							Grid layout is a powerful new CSS layout system that allows you to divide the content of a web page into rows and
+							columns in an easy way. <br>
+							<b> 4.1: Basic example </b> <br>
+							Property Possible values
+							display grid / online grid
+							The CSS grid is defined as a display property. Applies to a parent element and its immediate children only.
+							Consider the following markup:
+							< section class = "container"> <br>
+							< div class = "item1"> item1 < / div> <br>
+							< div class = "item2"> item2 < / div> <br>
+							< div class = "item3"> item3 < / div> <br>
+							< div class = "item4"> item4 < / div> <br>
+							</ section> 
+							The easiest way to define the above markup structure as a grid is to simply set its display property to grid:
+							.package {<br>
+							screen: grid; <br>
+							} <br>
+							However, doing this will always cause all the children to collapse on top of each other. This is because
+							children currently do not know how to position themselves within the grid. But we can tell you explicitly.
+							First we need to tell the grid element .container how many rows and columns will make up its structure and
+							You can do this using the properties of the grid columns and the grid rows (note pluralization):
+							.package {<br>
+							screen: grid; <br>
+							grid columns: 50px 50px 50px; <br>
+							grid rows: 50px 50px; <br>
+							} <br>
+							However, that still doesn't help us much because we need to give an order to each child element. We can do this for
+							specifying the grid row and grid column values ​​that will tell you where you are on the grid:
+							.container .item1 {<br>
+							grid column: 1; <br>
+ 							grid row: 1; <br>
+							} <br>
+							.container .item2 {<br>
+							grid column: 2; <br>
+							 grid row: 1; <br>
+							} <br>
+							.container .item3 {<br>
+							grid column: 1; <br>
+							grid row: 2; <br>
+							}
+							.container .item4 {<br>
+							grid column: 2; <br>
+							GoalKicker.com - CSS Notes for Professionals 142 <br>
+							grid row: 2; <br>
+							} <br>
+							By giving each item a column and row value, you identify the order of the items within the container.
+							See a working example in JSFiddle. You will need to see this in IE10, IE11, or Edge for it to work as they are
+							Currently the only browsers that support Grid Layout (with provider prefix -ms-) or enable a flag in Chrome, Opera, and
+							Firefox according to caniuse to test with them.
+						</p>
+					</article>
+					<article class="tripleblocks tripeleftblock">
+						<a href="#">
+							<img src="img/8.jpg" id="mmm">
+							<span class="caption"><b>5. Global attributes</b>
+							</span>
+						</a>
+						<p class="byline">CSS</p>
+						<p>
+							<table>
+								<tr>
+									<td><b> attribute</b> </td>
+									<td><b> description<b> </td>
+								</tr>
+								<tr>
+									<td><b>class</b> </td>
+									<td> Defines one or more class names for an element. See Classes and IDs. </td>
+								</tr>
+								<tr>
+									<td><b>contenteditable</b> </td>
+									<td> Sets whether the content of an element can be edited. </td>
+								</tr>
+								<tr>
+									<td><b>contextmenu</b> </td>
+									<td> Defines a context menu that is displayed when a user right-clicks an item. </td>
+								</tr>
+								<tr>
+									<td><b>dir</b> </td>
+									<td> Sets the direction of the text within an element. </td>
+								</tr>
+								<tr>
+									<td><b> draggable</b> </td>
+									<td> Sets whether an element can be dragged. hidden Hides an element that is not currently used on the page. </td>
+								</tr>
+								<tr>
+									<td><b>id</b> </td>
+									<td> Defines a unique identifier for an element. See Classes and IDs. </td>
+								</tr>
+								<tr>
+									<td><b>lang</b> </td>
+									<td> Defines the language of an element's content and its text attribute values. See content Languages. </td>
+								</tr>
+								<tr>
+									<td><b>spellcheck</b> </td>
+									<td> Sets whether to check the spelling / grammar of the content of an element. </td>
+								</tr>
+								<tr>
+									<td><b>style</b> </td>
+									<td> Defines a set of inline CSS styles for an element. </td>
+								</tr>
+								<tr>
+									<td><b>tabindex</b> </td>
+									<td> Sets the order in which elements on a page are navigated using the tab keyboard shortcut. </td>
+								</tr>
+								<tr>
+									<td><b>title</b> </td>
+									<td> Defines additional information about an element, usually in the form of mouse over tooltip text. </td>
+								</tr>
+								<tr>
+									<td><b>traslate</b> </td>
+									<td> Defines if the content of an element should be translated. </td>
+								</tr>
+							</table>
+						</p>
+					</article>
+					<article class="tripleblocks tripeleftblock">
+						<a href="#">
+							<img src="img/9.jpg" id="mmm">
+							<span class="caption"><b>5.1 Inline Block Design Section</b>
+							</span>
+						</a>
+						<p class="byline">HTML</p>
+						<p>Chapter 41: Online Block Design
+							Section 41.1: Justified Navigation Bar
+							The horizontally justified navigation bar (menu) has several items that need to be justified. The first (left)
+							the article has no left margin inside the container, the last article (right) has no right margin inside the container. the
+							the distance between the elements is equal, regardless of the width of the individual element.
+							HTML
+							< nav> <br>
+							< ul> <br>
+							< li> abc < / li> <br>
+							< li> abcdefghijkl </ li> <br>
+							< li> abcdef < / li> <br>
+							< / ul> <br>
+							< / nav> <br>
+							CSS <br>
+							nav {<br>
+							width: 100%; <br>
+							line height: 1.4em; <br>
+							} <br>
+							ul {<br>
+							list style: none; <br>
+							screen lock; <br>
+							width: 100%; <br>
+							margin: 0; <br>
+							padding: 0; <br>
+							align text: justify; <br>
+							lower margin: -1,4em; <br>
+							} <br>
+							ul: after {<br>
+							content: ""; <br>
+							screen: block online; <br>
+							width: 100%; <br>
+							} <br>
+							li {<br>
+							screen: block online; <br>
+							} <br>
+							Notes <br>
+							The nav, ul and li tags were chosen for their semantic meaning of 'a list of navigation items (menu)'. Other
+							Of course, labels can also be used.
+							The: after pseudo-element causes an additional 'line' in ul and thus an additional empty height of this block,
+							pushing down other content. This is resolved with the negative bottom margin, which should have the same
+							magnitude as the height of the line (but negative).
+							If the page becomes too narrow to fit all the elements, the elements will be split on a new line (starting with the
+							right) and be justified on this line. The overall height of the menu will increase as needed.
+						</p> 
+					</article>
+				</section>
+			</section>
+			<footer id="footer">
+				<section id="footer-area">
+					<section id="footer-outer-block">
+						<aside class="footer-segment-first">
+							<h3>Friends</h3>
+							<ul>
+								<li><a href="#">one linkylink</a></li>
+								<li><a href="#">two linkylinks</a></li>
+								<li><a href="#">three linkylinks</a></li>
+							</ul>
+						</aside>
+						<aside class="footer-segment-second">
+							<h3>Awesome Stuff</h3>
+							<ul>
+								<li><a href="#">one linkylink</a></li>
+								<li><a href="#">two linkylinks</a></li>
+								<li><a href="#">three linkylinks</a></li>
+							</ul>
+						</aside>
+						<aside class="footer-segment-third">
+							<h3>Coolness</h3>
+							<ul>
+								<li><a href="#">one linkylink</a></li>
+								<li><a href="#">two linkylinks</a></li>
+								<li><a href="#">three linkylinks</a></li>
+							</ul>
+						</aside>
+						<aside class="footer-segment-last">
+							<h3>Blahdyblah</h3>
+							<ul>
+								<li><a href="#">2010 yoursite.com</a></li>
+								<li><a href="#">Integer nec odio. Prasent</a></li>
+								<li><a href="#">Libero. Sed cursus ante.</a></li>
+							</ul>
+						</aside>
+					</section>
+				</section>
+			</footer>
+		</div>
+	</body>
+</html>
